@@ -1,0 +1,17 @@
+.row{
+   display:flex;
+   flex-wrap:wrap;
+   /* margin:auto; */
+   width: 100%;
+   margin-top: 100px;
+   min-height:10vh;
+  background: #141414;
+  /* color: rgb(0, 140, 255); */
+  /* background:linear-gradient(360deg,#ffffff ,#bce7e9); */
+}
+@media screen and (max-width:800px){
+.row{
+    width: 100%;
+    margin: 5px;
+}
+}

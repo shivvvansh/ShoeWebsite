@@ -1,0 +1,45 @@
+.banner{
+    width: 100%;
+    min-height: 70vh;
+    /* background: linear-gradient(30deg,#aafce09a,#eeeeee,#a9d1ff,#f7eec7,#f5a2bd,#7eb1f3,#56e4f7,#0d9dfd); */
+    /* background: linear-gradient(30deg,#9b9696,#d9dbeb); */
+    background: #000000;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.banner h1{
+    text-align: center;
+    color: rgba(241, 246, 252, 0.973);
+}
+.boxers{
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.boxers .box4,.box5,.box6,.box7{
+width: 300px;
+height: 150px;
+display: flex;
+flex-direction: row;
+margin: auto 33px;
+background: rgba(0, 0, 0, 0.719);
+backdrop-filter: blur(22px);
+border-radius: 12px;
+}
+.boxers .box4 p,.box5 p,.box6 p{
+ text-align: center;
+ color: rgb(0, 0, 0);
+}
+.box4 img,.box5 img,.box6 img,.box7 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 22px;
+    filter: saturate(0%),brightness(0%);
+}

@@ -1,0 +1,228 @@
+.div-Signup-container{
+width: 100%;
+min-height: 100vh;    
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+color: white;
+background: #dde1e7;
+box-shadow:  12px 12px 40px #77a9ff,
+            -12px -12px 40px #9ef0f0;
+}
+  .content {
+    /* margin-top: 90px; */
+    width: 90%;
+    min-height: 50vh;
+     background: #dde1e7;
+     border-radius: 54px;
+    background: #dde1e7;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* margin: 100px auto; */
+    box-shadow:  12px 12px 40px #77a9ff,-12px -12px 40px #9ef0f0;
+
+  }
+  
+
+  .chota{
+    /* max-width: 50%; */
+    /* min-height: 80vh; */
+    width: 600px;
+    height: 530px;
+    position: relative;
+    margin: auto;
+    border-radius: 22px;
+    padding: 22px;
+    background: #dee0e3;
+    box-shadow:  16px 16px 32px #ccced1,
+    -16px -16px 32px #f0f2f5;
+  }
+
+.deco{
+   width: 40%;
+   height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 22px auto;
+  }
+.deco-img{
+   border-radius: 10%;
+   min-width: 400px;
+   min-height:400px;
+}
+
+
+  .content .texts{
+    font-size: 33px;
+    font-weight: 600;
+    color: pink;
+  }
+  .name{
+      height: auto;
+      display: flex;
+      width: 100%;
+      min-height: 100px;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 2px auto;
+  }
+  .field {
+    height: 60px;
+    width: 250px;
+    display: flex;
+    position: relative;
+    /* margin: auto; */
+    margin: 12px;
+  }
+  .field input::placeholder{
+    font-size: 15px;
+    text-align: center;
+    color: #595959b6;
+  }
+  .field input,select{
+    /* margin-top: 32px; */
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    background: #94979b;
+    color: #595959;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    border-radius: 25px;
+    background: #dde1e7;
+    box-shadow:  12px 12px 40px #bcbfc4,
+                 -12px -12px 40px #feffff;
+  }
+  .fields{
+    width: 100%;
+    padding: 12px;
+    height: 210px;
+  }
+  .fields{
+    width: 100%;
+    height: 100%;
+  }
+  .field input:focus {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #ffffff73;
+  }
+  .field span {
+    /* position: absolute; */
+    color: #595959;
+    width: 50px;
+    line-height: 50px;
+    margin-left: 11px;
+  }
+  .field label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 45px;
+    pointer-events: none;
+    color: #666666;
+  }
+  .field input:valid ~ label {
+    opacity: 0;
+  }
+  
+  .but-sub{
+    /* margin: 15px 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    position: relative;
+    line-height: 50px;
+    font-weight: 200;
+    /* background: #dde1e7; */
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    color: #01afff;
+    background: #dde1e7;
+    box-shadow:  27px 27px 47px #b7bbc0,
+             -27px -27px 47px #ffffff;
+    margin: 22px auto;
+  }
+ .but-sub:focus {
+    color: #3498db;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+  }
+  .sign-up {
+    text-align: center;
+    color: #595959;
+    font-size: 20px;
+  }
+  .sign-up a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  .sign-up a:hover {
+    text-decoration: underline;
+  }
+  @media screen and (max-width:450px){
+    .content{
+      width: 100%;
+      min-height: 100vh;
+      border-radius: 0px;
+      box-shadow:  0px 0px 0px #77a9ff,-0px -0px 0px #9ef0f0;
+
+    }
+    .field{
+      width: 300px;
+    }
+    .deco{
+      margin: 12px auto;
+    }
+    .deco-img{
+      min-width: 300px;
+      min-height: 300px;
+    }
+    .chota{
+      width: 350px;
+      margin-top: 22px;
+      /* margin-bottom: 22px; */
+    }
+    .but-sub{
+      margin: 12px 0px;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width:350px){
+    .field{
+      width: 300px;
+    }
+    .deco{
+      margin: 12px auto;
+    }
+    .chota{
+      width: 300px;
+      margin-top: 22px;
+      /* margin-bottom: 22px; */
+    }
+  }
+  @media screen and (max-width:350px){
+    .field{
+      width: 250px;
+    }
+    .deco{
+      margin: 12px auto;
+    }
+    .chota{
+      width: 100%;
+      margin-top: 22px;
+    }
+  }

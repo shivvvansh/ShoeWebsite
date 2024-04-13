@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 60vh;
+  /* margin-top: 100px; */
+  background: #1b1c1d;
+  /* margin-top: 100px; */
+}

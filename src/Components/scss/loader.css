@@ -1,0 +1,15 @@
+.loader-div{
+    width: 100%;
+    user-select: none;
+    min-height: 100vh;
+    background: #00080f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.loader-div img{
+    width: 400px;
+    height: 250px;
+}
